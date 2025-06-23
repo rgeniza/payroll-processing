@@ -1,0 +1,79 @@
+
+Employee Array
+[
+  { name: 'Joe B', hourlyRate: 25, hoursWorked: 40 },
+  { name: 'Vince W', hourlyRate: 35, hoursWorked: 30 },
+  { name: 'Emma H', hourlyRate: 30, hoursWorked: 50 }
+]
+-------------------
+Base Pay calculation
+[
+  { name: 'Joe B', basePay: 1000 },
+  { name: 'Vince W', basePay: 1050 },
+  { name: 'Emma H', basePay: 1200 }
+]
+--------------------
+Overtime Pay Calculation
+[
+  { name: 'Joe B', overtimePay: 0 },
+  { name: 'Vince W', overtimePay: 0 },
+  { name: 'Emma H', overtimePay: 450 }
+]
+---------------------
+Gross and Net Pay
+[
+  { name: 'Joe B', grossPay: '1000.00', netPay: '850.00' },
+  { name: 'Vince W', grossPay: '1050.00', netPay: '892.50' },
+  { name: 'Emma H', grossPay: '1650.00', netPay: '1402.50' }
+]
+----------------------
+Return from processPayroll function
+[
+  {
+    name: 'Joe B',
+    overtimePay: '0.00',
+    basePay: '1000.00',
+    grossPay: '1000.00',
+    netPay: '850.00'
+  },
+  {
+    name: 'Vince W',
+    overtimePay: '0.00',
+    basePay: '1050.00',
+    grossPay: '1050.00',
+    netPay: '892.50'
+  },
+  {
+    name: 'Emma H',
+    overtimePay: '450.00',
+    basePay: '1200.00',
+    grossPay: '1650.00',
+    netPay: '1402.50'
+  }
+]
+----------------------
+for of loop to return results from processPayroll()
+{
+  name: 'Joe B',
+  overtimePay: '0.00',
+  basePay: '1000.00',
+  grossPay: '1000.00',
+  netPay: '850.00'
+}
+{
+  name: 'Vince W',
+  overtimePay: '0.00',
+  basePay: '1050.00',
+  grossPay: '1050.00',
+  netPay: '892.50'
+}
+{
+  name: 'Emma H',
+  overtimePay: '450.00',
+  basePay: '1200.00',
+  grossPay: '1650.00',
+  netPay: '1402.50'
+}
+
+[Done] exited with code=0 in 0.102 seconds
+
